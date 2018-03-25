@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.updatesample.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="go RNActivity"
+        android:onClick="goRNActivity"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="go One"
+        android:onClick="goOneActivity"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="go Two"
+        android:onClick="goTwoActivity"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="download One Bundle"
+        android:onClick="downloadOneBundle"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="download Two Bundle"
+        android:onClick="downloadTwoBundle"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="clean bundles"
+        android:onClick="clearBundles"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
