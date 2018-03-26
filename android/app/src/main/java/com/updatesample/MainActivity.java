@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void downloadOneBundle(View v) {
-        String url = "http://192.168.31.113:8080/bundle/bundle_one.zip";
+        String url = "http://192.168.2.88:8080/bundle_download/bundle_one.zip";
         String localDir = getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS).getAbsolutePath();
         CheckVersionBean bean = new CheckVersionBean("one", url, "one.rar", localDir);
         updateManager.checkUpdate(bean);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void downloadTwoBundle(View v) {
-        String url = "http://192.168.31.113:8080/bundle/bundle_two.zip";
+        String url = "http://192.168.2.88:8080/bundle_download/bundle_two.zip";
         String localDir = getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS).getAbsolutePath();
         CheckVersionBean bean = new CheckVersionBean("two", url, "two.rar", localDir);
         updateManager.checkUpdate(bean);
